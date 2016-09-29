@@ -9,8 +9,17 @@ p "Hello from seeds.rb"
 
 Speaker.delete_all
 
+require 'ffaker'
+
 Speaker.create([
-  {:first=>"Christen", :last=>"Bolduc", :email=>"christen@example.com"},
-  {:first=>"Erin", :last=>"Storm", :email=>"erin@example.com"},
-  {:first=>"Gina", :last=>"Baleria", :email=>"gina@example.com"}
+  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email}
 ])
