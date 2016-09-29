@@ -12,14 +12,14 @@ Speaker.delete_all
 require 'ffaker'
 
 Speaker.create([
-  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
-  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
-  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
-  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
-  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
-  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
-  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
-  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
-  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email},
-  {:first=>FFaker::Name.name, :last=>FFaker::Name.name, :email=>FFaker::Internet.email}
+  {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email},
+  {:first=>FFaker::Name.first_name, :last=>FFaker::Name.last_name, :email=>FFaker::Internet.email}
 ])
